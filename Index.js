@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 function ler(){
-    fs.readFile("./test.txt",{encoding: 'utf-8'},(error, dados) => {
+    fs.readFile("./input/test.txt",{encoding: 'utf-8'},(error, dados) => {
         if(error){
             console.log('Ocorreu um erro durante a leitura do arquivo!')
         }else{
@@ -11,9 +11,29 @@ function ler(){
 }
 
 function escrever(){
-    fs.writeFile("./output/test.txt","Hello World", (err) => {
+    fs.writeFile("./output/dados.txt","Hello World", (err) => {
         console.log("Erro durante o salvamento...")
     })
 }
 
-escrever()
+function jsonfile(){
+    fs.readFile("./input/usuario.json",{encoding: 'utf-8'},(err, dados) => {
+        if(err){
+            console.log("Ocorreu um erro durante a leitura!")
+        }else{
+            var conteudo = JSON.parse(dados)
+
+            console.log(conteudo)
+            conteudo.nome="Elias"
+            console.log(conteudo)
+
+            fs.writeFile("./input/usuario.json", JSON.stringify(conteudo), (err) => {
+                if(err){
+                    console.log("Um erro ocorreu durante a escrita")
+                }
+            })
+        }
+    })
+}
+
+jsonfile()
