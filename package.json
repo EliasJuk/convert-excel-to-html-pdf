@@ -1,0 +1,24 @@
+{
+  "name": "convert-excel-to-html-pdf",
+  "version": "1.0.0",
+  "description": "Converte planilha em PDF e HTML",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "Index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasJuk/convert-excel-to-html-pdf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliasJuk/convert-excel-to-html-pdf/issues"
+  },
+  "homepage": "https://github.com/EliasJuk/convert-excel-to-html-pdf#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
