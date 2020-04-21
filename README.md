@@ -1,6 +1,23 @@
 # Converte planilha em PDF e HTML
 
-
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EliasJuk/convert-excel-to-html-pdf">	
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasJuk/convert-excel-to-html-pdf">
+	
+  <a href="https://www.linkedin.com/in/eliaspjuk/">
+    <img alt="Made by EliasJuk" src="https://img.shields.io/badge/made%20by-EliasJuk-%2304D361">
+  </a>
+  
+  <a href="https://github.com/EliasJuk/convert-excel-to-html-pdf/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasJuk/convert-excel-to-html-pdf">
+  </a>
+  
+  <a href="https://github.com/EliasJuk/convert-excel-to-html-pdf/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/EliasJuk/convert-excel-to-html-pdf">
+  </a>
+  
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> 
+<p>
 
 ---
 
@@ -14,8 +31,8 @@ Execute o seguinte comando:
 # Install dependencies
 $ npm install
 
-# Run the app
-$ npm start 
+# Go to the folder 'app' and execute the following command
+$ node app.js 
 ```
 
 <p>Após executar esses procedimentos os arquivos resultantes desse proceso estarão na pasta output</p>
