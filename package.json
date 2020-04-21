@@ -4,10 +4,12 @@
   "description": "---",
   "main": "index.js",
   "scripts": {
-    "start": "node app/app.js"
+    "start": "nodemon app/app.js"
   },
   "dependencies": {
-    "ejs": "^3.0.2"
+    "ejs": "^3.0.2",
+    "html-pdf": "^2.2.0",
+    "nodemon": "^2.0.3"
   },
   "keywords": [],
   "author": "",
